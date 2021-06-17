@@ -4,7 +4,7 @@ module.exports = {
   name: "setnick",
   description: 'Đặt nick name trong server',
     usage: '_setnick [@user] [Nickname]',
-    category: 'User',
+    category: 'user',
   run: async (client, message, args) => {
     const member = message.mentions.members.first();
 

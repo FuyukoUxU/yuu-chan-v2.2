@@ -6,7 +6,7 @@ const ms = require('ms');
 module.exports = {
     cooldown: 0,
     name: 'stats',
-    category: 'User',
+    category: 'user',
     description: 'Hiển thị trạng thái của Yuu-chan!',
     usage: '_stats',
     run: async (client, message, args) => {

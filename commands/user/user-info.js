@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js');
 
 module.exports = {
     name: "user-info",
-    category: "User",
+    category: "user",
     description: "Check user info.",
     usage: '_user-info / a.ui',
     run: async (client, message, args) => {

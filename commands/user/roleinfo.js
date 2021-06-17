@@ -3,7 +3,7 @@ const stringSimilarity = require('string-similarity');
 
 module.exports = {
     name: "roleinfo",
-    category: "User",
+    category: "user",
     description: "Trả về thông tên role",
     usage: '_roleinfo [Tên role]',
     run: async (client, message, args) => {

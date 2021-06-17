@@ -4,7 +4,7 @@ module.exports = {
   name: "reset-nick",
   description: 'Reset nick name trong server',
     usage: '_reset-nick [@user]',
-    category: 'User',
+    category: 'user',
   run: async (client, message, args) => {
     const member = message.mentions.members.first();
 
